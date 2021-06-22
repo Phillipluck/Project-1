@@ -6,7 +6,7 @@ https://github.com/Phillipluck/Project-1/blob/main/Images/Elk%20Stack%20Diagram.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
-  (Images/elk_stack_playbook.png)
+  !(Images/elk_stack_playbook.png)
   (Images/filebeat_playbook.png)
   (Images/metricbeat_playbook.png)
 
