@@ -70,7 +70,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![ScreenShot](Images/Sudo docker ps.png)
+![ScreenShot](Images/Sudo_docker_ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -92,7 +92,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the elk_playbook.yml file to /etc/ansible
 - Update the hosts file to include include the elk webserver (see image below)...
-![ScreenShot](Images/Elk hosts image.png)
+![ScreenShot](Images/Elk_hosts_image.png)
 - Run the playbook, and navigate to http://[elk_server_ip]:5601/app/kibana to check that the installation worked as expected.
 
 
