@@ -31,7 +31,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Filebeat is used to monitor the system logs, while Metricbeat is used to monitor and gather metrics on system resource usage.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -54,8 +53,8 @@ Machines within the network can only be accessed by jump box.
 
 A summary of the access policies in place can be found in the screenshots below.
 
-(Images/VM_NSG.png)
-(Images/Elk_Web_NSG.png)
+![ScreenShot](Images/VM_NSG.png)
+![ScreenShot](Images/Elk_Web_NSG.png)
 
 ### Elk Configuration
 
@@ -71,7 +70,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-(Images/Sudo docker ps.png)
+![ScreenShot](Images/Sudo docker ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -93,7 +92,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the elk_playbook.yml file to /etc/ansible
 - Update the hosts file to include include the elk webserver (see image below)...
-(Images/Elk hosts image.png)
+![ScreenShot](Images/Elk hosts image.png)
 - Run the playbook, and navigate to http://[elk_server_ip]:5601/app/kibana to check that the installation worked as expected.
 
 
