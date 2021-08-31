@@ -97,5 +97,3 @@ SSH into the control node and follow the steps below:
 ![ScreenShot](Images/Elk_hosts_image.png)
 - Run the playbook, and navigate to http://[elk_server_ip]:5601/app/kibana to check that the installation worked as expected.
 
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
